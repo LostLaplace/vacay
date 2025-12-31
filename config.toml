@@ -12,3 +12,5 @@ holidays = [
     2026-12-24,
     2026-12-25,
 ]
+
+ptoHoursPerWeek = 4.16

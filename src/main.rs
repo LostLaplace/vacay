@@ -177,9 +177,9 @@ fn main() {
         let status = if pto_balance >= pto_hours_needed {
             // Deduct PTO for the vacation
             pto_balance -= pto_hours_needed;
-            "✓".to_string()
+            "✅".to_string()
         } else {
-            "✗".to_string()
+            "🚫".to_string()
         };
 
         // Add row to table
